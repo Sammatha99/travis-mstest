@@ -1,0 +1,6 @@
+language: csharp
+solution: travis-mstest.sln
+mono: none
+dotnet: 2.1.4
+script:
+  - dotnet test Lib.Tests/Lib.Tests.csproj
